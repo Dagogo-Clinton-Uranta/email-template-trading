@@ -1,8 +1,8 @@
 
-import Header from '../page-components/componentsAccountStatement/header/Header'
+import Header from '../page-components/componentsMarketUpdate/header/Header'
 
 
-const AccountStatementPage = () => {
+const MarketUpdatePage = () => {
  
     return (
         <div className="welcomePage">
@@ -15,4 +15,4 @@ const AccountStatementPage = () => {
       )
 }
 
-export default AccountStatementPage
+export default MarketUpdatePage

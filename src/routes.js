@@ -9,7 +9,7 @@ import Page404 from './pages/Page404';
 
 
 
-import CallCenterSolutionsPage from './pages/CallCenterSolutionsPage';
+import CallCenterSolutionsPage from './pages/DepositConfirmationPage';
 import WithdrawalRequestPage from './pages/WithdrawalRequestPage';
 import GlobeNewswirePage from './pages/GlobeNewswirePage';
 import PasswordResetRequestPage from './pages/PasswordResetRequest';
@@ -27,6 +27,10 @@ import PlatformMaintenancePage from './pages/PlatformMainetnancePage';
 import ReferralProgramPage from './pages/ReferralProgramPage';
 import AccountClosurePage from './pages/AccountClosurePage';
 import PlatformUpdatePage from './pages/PlatformUpdatePage';
+import MarketUpdatePage from './pages/MarketUpdatePage';
+import DepositConfirmationPage from './pages/DepositConfirmationPage';
+import DepositConfirmationBlackPage from './pages/DepositConfirmationBlackPage';
+import WithdrawalRequestBlackPage from './pages/WithdrawalRequestBlackPage';
 
 
 
@@ -48,10 +52,10 @@ export default function Router() {
    
  
    
-    { path: 'deposit-confirmation', element: <CallCenterSolutionsPage /> },
-    { path: 'deposit-confirmation-black', element: <CallCenterSolutionsPage /> },
+    { path: 'deposit-confirmation', element: <DepositConfirmationPage /> },
+    { path: 'deposit-confirmation-black', element: <DepositConfirmationBlackPage /> },
     { path: 'withdrawal-request', element: <WithdrawalRequestPage /> },
-    { path: 'withdrawal-request-black', element: <CallCenterSolutionsPage /> },
+    { path: 'withdrawal-request-black', element: <WithdrawalRequestBlackPage /> },
     { path: 'account-statement', element: <AccountStatementPage /> },
     { path: 'account-statement-black', element: <CallCenterSolutionsPage /> },
     { path: 'password-reset-request', element: <PasswordResetRequestPage /> },
@@ -76,7 +80,7 @@ export default function Router() {
     { path: 'account-suspension-black', element: <CallCenterSolutionsPage /> },
     { path: 'platform-maintenance', element: <PlatformMaintenancePage /> },
     { path: 'platform-maintenance-black', element: <CallCenterSolutionsPage /> },
-    { path: 'market-update', element: <CallCenterSolutionsPage /> },
+    { path: 'market-update', element: <MarketUpdatePage /> },
     { path: 'market-update-black', element: <CallCenterSolutionsPage /> },
     { path: 'referral-program', element: <ReferralProgramPage /> },
     { path: 'referral-program-black', element: <CallCenterSolutionsPage /> },

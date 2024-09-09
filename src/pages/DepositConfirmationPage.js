@@ -1,8 +1,8 @@
 
-import Header from '../page-components/componentsAccountStatement/header/Header'
+import Header from '../page-components/componentsDepositConfirmation/header/Header'
 
 
-const AccountStatementPage = () => {
+const DepositConfirmationPage = () => {
  
     return (
         <div className="welcomePage">
@@ -15,4 +15,4 @@ const AccountStatementPage = () => {
       )
 }
 
-export default AccountStatementPage
+export default DepositConfirmationPage

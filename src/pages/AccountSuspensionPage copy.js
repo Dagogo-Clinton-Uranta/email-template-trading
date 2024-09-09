@@ -1,8 +1,8 @@
 
-import Header from '../page-components/componentsCallCenterSolutions/header/Header'
+import Header from '../page-components/componentsAccountSuspension/header/Header'
 
 
-const CallCenterSolutionsPage = () => {
+const AccountSuspensionPage = () => {
  
     return (
         <div className="welcomePage">
@@ -15,4 +15,4 @@ const CallCenterSolutionsPage = () => {
       )
 }
 
-export default CallCenterSolutionsPage
+export default AccountSuspensionPage
