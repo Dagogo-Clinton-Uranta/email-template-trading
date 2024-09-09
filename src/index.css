@@ -279,11 +279,11 @@ a {
   /*background-color: #2E2779;*/
   /*background-color:#68D585;*/
 
-  background-color:black;
+  background-color:rgb(32, 32, 32);
 
   text-decoration: none;
   color:white !important;
-  border:1px solid black;
+  border:1px solid rgb(32, 32, 32);
 
 }
 

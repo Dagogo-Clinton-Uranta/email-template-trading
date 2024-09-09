@@ -31,6 +31,7 @@ import MarketUpdatePage from './pages/MarketUpdatePage';
 import DepositConfirmationPage from './pages/DepositConfirmationPage';
 import DepositConfirmationBlackPage from './pages/DepositConfirmationBlackPage';
 import WithdrawalRequestBlackPage from './pages/WithdrawalRequestBlackPage';
+import AccountStatementBlackPage from './pages/AccountStatementBlackPage';
 
 
 
@@ -57,7 +58,7 @@ export default function Router() {
     { path: 'withdrawal-request', element: <WithdrawalRequestPage /> },
     { path: 'withdrawal-request-black', element: <WithdrawalRequestBlackPage /> },
     { path: 'account-statement', element: <AccountStatementPage /> },
-    { path: 'account-statement-black', element: <CallCenterSolutionsPage /> },
+    { path: 'account-statement-black', element: <AccountStatementBlackPage /> },
     { path: 'password-reset-request', element: <PasswordResetRequestPage /> },
     { path: 'password-reset-request-black', element: <CallCenterSolutionsPage /> },
     { path: 'promotional-offer', element: <PromotionalOfferPage /> },
