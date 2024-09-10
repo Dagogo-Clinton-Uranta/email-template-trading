@@ -1,4 +1,4 @@
-.header-acsblack {
+.header-welblack {
    height:100vh;
    /* padding-top: 7rem;
     overflow:visible;*/
@@ -24,7 +24,7 @@
     justify-content: center;
    /* linear-gradient(
       
-     var(--color-header) ,var(--color-white)
+     var(--color-header) ,var(--color-black)
     ) */
    /*z-index: -100;*/
  
@@ -61,7 +61,7 @@
  
 .consentWarning{
     text-align: left;
-    background-color: var(--color-white);
+    background-color: var(--color-black);
     padding:1rem;
     border-radius: 2rem;
 }
@@ -80,19 +80,17 @@
     text-align: left;
 }
 
-.headerExplainer-acsblack{
-   
+.headerExplainer-welblack{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap:0.8rem;
     background-color: black;
-    color:black;
+    color:white;
     max-width:60%; 
     border-radius: 2rem;
-    border:1px solid rgb(100, 100, 100);
-
+    border: 1px solid rgba(100, 100, 100);
     flex:1;
     padding:5%;
     padding-top: 0%;
@@ -110,7 +108,7 @@
 }
 
 .CTAbox{
-    background-color: var(--color-white);
+    background-color: var(--color-black);
     height: 65%;
     width: 100%;
     padding:10%;
@@ -310,7 +308,7 @@ z-index: -1;
   
 
 
-    .headerExplainer-acsblack{
+    .headerExplainer-welblack{
        
         text-align:left;
      /*  margin-top: 3rem;*/
@@ -325,7 +323,7 @@ z-index: -1;
   
 
 
-    .headerExplainer-acsblack{
+    .headerExplainer-welblack{
        
         text-align:left;
       /* margin-top: 3rem;*/
@@ -338,7 +336,7 @@ z-index: -1;
 @media screen and (max-width:1500px) {
 
 
-    .header-acsblack {
+    .header-welblack {
        
          background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('src/assets/images/mid-black.png');
         height: 100vh;
@@ -351,7 +349,7 @@ z-index: -1;
     }
 
 
-    .headerExplainer-acsblack{
+    .headerExplainer-welblack{
        
         text-align:left;
       /* margin-top: 3rem;*/
@@ -393,7 +391,7 @@ z-index: -1;
   
 
 
-    .headerExplainer-acsblack{
+    .headerExplainer-welblack{
        
         text-align:left;
        /*margin-top: 3rem;*/
@@ -404,11 +402,11 @@ z-index: -1;
 
 @media screen and (max-width:1350px) {
 
-.headerExplainer-acsblack{
+.headerExplainer-welblack{
        
         
     max-width: 80%;
-    max-height: 88%;
+    max-height: 85%;
     
  }
 
@@ -425,7 +423,7 @@ z-index: -1;
     }
 
 
-    .headerExplainer-acsblack{
+    .headerExplainer-welblack{
        
         text-align:left;
        /*margin-top: 8rem;*/
@@ -533,7 +531,7 @@ z-index: -1;
     }
 
    
-    .header-acsblack {
+    .header-welblack {
        
         background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('src/assets/images/small-black.png');
         height: 120vh;  
@@ -542,7 +540,7 @@ z-index: -1;
 
 
 
-   .headerExplainer-acsblack{
+   .headerExplainer-welblack{
        
     min-height: 55rem;
     min-width: 30rem;

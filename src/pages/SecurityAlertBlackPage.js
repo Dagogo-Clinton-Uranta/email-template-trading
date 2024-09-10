@@ -1,8 +1,8 @@
 
-import Header from '../page-components/componentsAccountSuspension/header/Header'
+import Header from '../page-components/componentsSecurityAlertBlack/header/Header'
 
 
-const AccountSuspensionPage = () => {
+const SecurityAlertBlackPage = () => {
  
     return (
         <div className="welcomePage">
@@ -15,4 +15,4 @@ const AccountSuspensionPage = () => {
       )
 }
 
-export default AccountSuspensionPage
+export default SecurityAlertBlackPage

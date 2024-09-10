@@ -6,7 +6,7 @@
     /*background-color: var(--color-header) ;*/
     background-color: #eeefef;
     position: relative;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('src/assets/images/big-black.png');
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('src/assets/images/big-black.png');
     background-color: transparent;
     
   
@@ -90,7 +90,7 @@
     color:white;
     max-width:60%; 
     border-radius: 2rem;
-   border:1px solid rgb(24, 24, 24);
+   border:1px solid rgb(100, 100, 100);
     flex:1;
     padding:5%;
     padding-top: 0%;
@@ -338,7 +338,7 @@ z-index: -1;
 
     .header-dcblack {
        
-         background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('src/assets/images/mid-black.png');
+         background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('src/assets/images/mid-black.png');
         height: 100vh;
          
     }     
@@ -533,7 +533,7 @@ z-index: -1;
    
     .header-dcblack {
        
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('src/assets/images/small-black.png');
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('src/assets/images/small-black.png');
         height: 100vh;  
         
    }  
